@@ -2,3 +2,20 @@
 Este repositorio contiene todo el analisis realizado para la identificación de anomalias contables para una entidad financiera
 
 Versión de python 3.11.7
+
+# Detección de Anomalías en Registros Contables
+
+## Entendimiento del Problema
+
+El sector financiero colombiano se compone por establecimientos de crédito, entidades de servicios financieros, sociedades de capitalización, aseguradoras y sus derivados, entre otros.
+
+Dentro del grupo de establecimientos de crédito o EC, los bancos son los más conocidos por la comunidad en general. Los modelos de fraude son bastante conocidos e implementados; sin embargo, actualmente los departamentos contables, a pesar de sus exhaustivas auditorías, a menudo requieren de un proceso de detección de anomalías que vaya más allá de la verificación del saldo actual versus el saldo anterior, de modo que permita conocer de primera mano todos aquellos movimientos atípicos que se registran durante determinado periodo contable, usando los datos y modelos estadísticos y computacionales para dicha actividad.
+
+El problema requiere identificar las anomalías en registros contables de gastos que no pueden ser detectados durante el proceso de razonabilidad y que se identifiquen dentro de algún tipo de anomalías: de magnitud, de tiempo o de primeras veces. El modelo debe evitar los falsos negativos y, a su vez, ser escalable en tiempo.
+
+## Impacto de la Solución
+
+Con la implementación de un modelo que detecte anomalías o outliers en el registro contable, la organización financiera podría detectar de forma temprana algunas irregularidades financieras que pueden ser omitidas dentro del proceso de razonabilidad.
+
+Por otro lado, con la automatización, el modelo puede ayudar a agilizar el proceso contable al identificar de manera rápida y precisa las transacciones que requieren una revisión adicional, reduciendo en cierta parte el error humano y permitiendo que el equipo se centre en otras tareas más estratégicas y suponga de fondo una optimización de recursos humanos y tecnológicos.
+
