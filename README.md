@@ -23,6 +23,7 @@ Por otro lado, con la automatización, el modelo puede ayudar a agilizar el proc
 ## Archivos
 
 - `Analisis_Exploratorio.ipynb`: Jupyter Notebook que contiene el análisis exploratorio de los datos compartidos para la detección de anomalias contables.
+- `Analisis_MCA.ipynb`: Jupyter Notebook que contiene el análisis realizado através de analisis de correspondencia multiple.
 
 ## Cómo visualizar el archivo `.ipynb`
 
