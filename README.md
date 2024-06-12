@@ -24,10 +24,14 @@ Por otro lado, con la automatización, el modelo puede ayudar a agilizar el proc
 
 - `Analisis_Exploratorio.ipynb`: Jupyter Notebook que contiene el análisis exploratorio de los datos compartidos para la detección de anomalias contables.
 - `Analisis_MCA.ipynb`: Jupyter Notebook que contiene el análisis realizado através de analisis de correspondencia multiple.
+- `Análisis_PCA.ipynb`: Jupyter Notebook que contiene el análisis realizado através de analisis de componentes principales.
 
 ### Teoría de los Modelos Usados
 #### 1. Análisis de correspondencia multiple:
 Con este modelo, se busca convertir, a través del Análisis de Correspondencia Múltiple (MCA), las variables categóricas en una representación numérica. MCA es una técnica estadística multivariada de reducción de información que se utiliza para analizar tablas de contingencia en múltiples dimensiones. Su objetivo principal es examinar la asociación entre las categorías de más de dos variables cualitativas, lo cual se busca hacer con esta información.
+
+#### 2. Análisis de componentes principales:
+El Análisis de Componentes Principales (PCA) permite reducir la dimensionalidad de una matriz de datos 𝑛×𝑝, donde 𝑛 representa la cantidad de registros y 𝑝 la cantidad de variables.
 
 ## Cómo visualizar el archivo `.ipynb`
 
