@@ -22,7 +22,7 @@ Por otro lado, con la automatización, el modelo puede ayudar a agilizar el proc
 
 ## Archivos
 
-- `Analisis_Exploratorio.ipynb`: Jupyter Notebook que contiene el análisis exploratorio de los datos compartidos registros contables.
+- `Analisis_Exploratorio.ipynb`: Jupyter Notebook que contiene el análisis exploratorio de los datos compartidos para la detección de anomalias contables.
 
 ## Cómo visualizar el archivo `.ipynb`
 
