@@ -19,3 +19,18 @@ Con la implementación de un modelo que detecte anomalías o outliers en el regi
 
 Por otro lado, con la automatización, el modelo puede ayudar a agilizar el proceso contable al identificar de manera rápida y precisa las transacciones que requieren una revisión adicional, reduciendo en cierta parte el error humano y permitiendo que el equipo se centre en otras tareas más estratégicas y suponga de fondo una optimización de recursos humanos y tecnológicos.
 
+
+## Archivos
+
+- `Analisis_Exploratorio.ipynb`: Jupyter Notebook que contiene el análisis exploratorio de los datos compartidos registros contables.
+
+## Cómo visualizar el archivo `.ipynb`
+
+Para visualizar el archivo `.ipynb`, puedes utilizar [Jupyter Notebook](https://jupyter.org/) o [Google Colab](https://colab.research.google.com/):
+
+### Usando Jupyter Notebook
+
+1. Instala Jupyter Notebook si no lo tienes:
+   ```sh
+   pip install notebook
+
