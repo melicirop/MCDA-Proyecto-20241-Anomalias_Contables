@@ -44,19 +44,29 @@ El Análisis de Componentes Principales (PCA) permite reducir la dimensionalidad
 
 #### 4. Distancias:
 
-Distancia Euclidiana: Permite calcular la distancia entre 2 puntos en el espacio, para el cual se define un centroide que toma el valor de la media de los datos del gasto_ejecutado (µ). Para todos los registros del conjunto de datos se procede entonces a calcular la distancia respecto a le media de la siguiente forma:
+- Distancia Euclidiana: Permite calcular la distancia entre 2 puntos en el espacio, para el cual se define un centroide que toma el valor de la media de los datos del gasto_ejecutado (µ). Para todos los registros del conjunto de datos se procede entonces a calcular la distancia respecto a le media de la siguiente forma:
 	
 d= √(〖(x-μ)〗^2 )
 
-Distancia de Manhatan: Igual que para la distancia euclidiana, se define el centroide con la media de la variable gasto_ejecutado y se calcula la distancia con la siguiente formula:
+- Distancia de Manhatan: Igual que para la distancia euclidiana, se define el centroide con la media de la variable gasto_ejecutado y se calcula la distancia con la siguiente formula:
 
 d=|x-μ|
 
-Distancia a la Mediana: Para esta métrica, en lugar de la media, se utiliza la mediana como centroide para calcular distancias, lo cual podría ser más robusto ante la presencia de outliers, ya que la mediana no se ve tan afectada por valores extremos como la media. Se procede entonces a calcular la distancia de la siguiente forma:
+- Distancia a la Mediana: Para esta métrica, en lugar de la media, se utiliza la mediana como centroide para calcular distancias, lo cual podría ser más robusto ante la presencia de outliers, ya que la mediana no se ve tan afectada por valores extremos como la media. Se procede entonces a calcular la distancia de la siguiente forma:
 
 d=|x-Μ|
 
 Siendo Μ la media del gasto_ejecutado
+
+## Para la ejecución del proyecto
+
+Existen 2 maneras de reproducir el código según tu necesidad:
+
+1. Ejecución notebook por notebook:
+- Si quieres ejecutar uno por uno de los notebooks debes:
+1.1 Instalar archivo requeriments.txt adjunto a este proyecto en la versión de python indicada
+1.2 Llevar el siguiente orden de ejecución para evitar erores en su ejecución:
+1.2.1 
 
 
 ## Cómo visualizar el archivo `.ipynb`
