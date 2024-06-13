@@ -63,10 +63,15 @@ Siendo Μ la media del gasto_ejecutado
 Existen 2 maneras de reproducir el código según tu necesidad:
 
 1. Ejecución notebook por notebook:
-- Si quieres ejecutar uno por uno de los notebooks debes:
-1.1. Instalar archivo requeriments.txt adjunto a este proyecto en la versión de python indicada
-1.2. Llevar el siguiente orden de ejecución para evitar erores en su ejecución:
-1.2.1.
+   - Si quieres ejecutar uno por uno de los notebooks debes:
+   1. Instalar archivo requeriments.txt adjunto a este proyecto en la versión de python indicada
+   2. Llevar el siguiente orden de ejecución para evitar erores en su ejecución:
+  	1. `Analisis_Exploratorio.ipynb`
+      	2. `Analisis_MCA.ipynb`
+       3. `Análisis_PCA.ipynb`
+       4. `Modelo_Distancias.ipynb`
+       5. `Modelos_LR_KNN.ipynb`
+       6. `Consolidacion_Modelos.ipynb`
 
 
 ## Cómo visualizar el archivo `.ipynb`
