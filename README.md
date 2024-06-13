@@ -64,9 +64,9 @@ Existen 2 maneras de reproducir el código según tu necesidad:
 
 1. Ejecución notebook por notebook:
 - Si quieres ejecutar uno por uno de los notebooks debes:
-1.1 Instalar archivo requeriments.txt adjunto a este proyecto en la versión de python indicada
-1.2 Llevar el siguiente orden de ejecución para evitar erores en su ejecución:
-1.2.1 
+1.1. Instalar archivo requeriments.txt adjunto a este proyecto en la versión de python indicada
+1.2. Llevar el siguiente orden de ejecución para evitar erores en su ejecución:
+1.2.1.
 
 
 ## Cómo visualizar el archivo `.ipynb`
