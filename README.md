@@ -68,9 +68,9 @@ Existen 2 maneras de reproducir el código según tu necesidad:
    2. Verificar que exista la base origen `query_3ec5aea3_20240410T153703.csv`
    3. Llevar el siguiente orden de ejecución:
       1. `Analisis_Exploratorio.ipynb`. (Opcional)
-      2. `Analisis_MCA.ipynb`. (Opcional)
-      3. `Análisis_PCA.ipynb`. (Opcional)
-      4. `Modelo_Distancias.ipynb`. (Obligatorio)
+      2. `Modelo_Distancias.ipynb`. (Obligatorio) *La salida de este modelo es entrada para los siguientes
+      3. `Analisis_MCA.ipynb`. (Opcional)
+      4. `Análisis_PCA.ipynb`. (Opcional)
       5. `Modelos_LR_KNN.ipynb`. (Obligatorio)
       6. `Consolidacion_Modelos.ipynb`. (Obligatorio)
      
