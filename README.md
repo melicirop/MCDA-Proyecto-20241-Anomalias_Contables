@@ -65,13 +65,14 @@ Existen 2 maneras de reproducir el código según tu necesidad:
 1. Ejecución notebook por notebook:
    - Si quieres ejecutar uno por uno de los notebooks debes:
    1. Instalar archivo requeriments.txt adjunto a este proyecto en la versión de python indicada
-   2. Llevar el siguiente orden de ejecución para evitar erores en su ejecución:
-  	1. `Analisis_Exploratorio.ipynb`
-      	2. `Analisis_MCA.ipynb`
-       3. `Análisis_PCA.ipynb`
-       4. `Modelo_Distancias.ipynb`
-       5. `Modelos_LR_KNN.ipynb`
-       6. `Consolidacion_Modelos.ipynb`
+   2. Verificar que exista la base origen 
+   3. Llevar el siguiente orden de ejecución para evitar erores en su ejecución:
+      1. `Analisis_Exploratorio.ipynb`. (Opcional)
+      2. `Analisis_MCA.ipynb`. (Opcional)
+      3. `Análisis_PCA.ipynb`. (Opcional)
+      4. `Modelo_Distancias.ipynb`. (Obligatorio)
+      5. `Modelos_LR_KNN.ipynb`. (Obligatorio)
+      6. `Consolidacion_Modelos.ipynb`. (Obligatorio)
 
 
 ## Cómo visualizar el archivo `.ipynb`
