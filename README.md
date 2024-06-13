@@ -46,15 +46,15 @@ El Análisis de Componentes Principales (PCA) permite reducir la dimensionalidad
 
 - Distancia Euclidiana: Permite calcular la distancia entre 2 puntos en el espacio, para el cual se define un centroide que toma el valor de la media de los datos del gasto_ejecutado (µ). Para todos los registros del conjunto de datos se procede entonces a calcular la distancia respecto a le media de la siguiente forma:
 	
-d= √(〖(x-μ)〗^2 )
+								d= √(〖(x-μ)〗^2 )
 
 - Distancia de Manhatan: Igual que para la distancia euclidiana, se define el centroide con la media de la variable gasto_ejecutado y se calcula la distancia con la siguiente formula:
 
-d=|x-μ|
+								d=|x-μ|
 
 - Distancia a la Mediana: Para esta métrica, en lugar de la media, se utiliza la mediana como centroide para calcular distancias, lo cual podría ser más robusto ante la presencia de outliers, ya que la mediana no se ve tan afectada por valores extremos como la media. Se procede entonces a calcular la distancia de la siguiente forma:
 
-d=|x-Μ|
+								d=|x-Μ|
 
 Siendo Μ la media del gasto_ejecutado
 
@@ -64,16 +64,22 @@ Existen 2 maneras de reproducir el código según tu necesidad:
 
 1. Ejecución notebook por notebook:
    - Si quieres ejecutar uno por uno de los notebooks debes:
-   1. Instalar archivo requeriments.txt adjunto a este proyecto en la versión de python indicada
-   2. Verificar que exista la base origen 
-   3. Llevar el siguiente orden de ejecución para evitar erores en su ejecución:
+   1. Instalar archivo requeriments.txt adjunto a este proyecto en la versión de python indicada.
+   2. Verificar que exista la base origen `query_3ec5aea3_20240410T153703.csv`
+   3. Llevar el siguiente orden de ejecución:
       1. `Analisis_Exploratorio.ipynb`. (Opcional)
       2. `Analisis_MCA.ipynb`. (Opcional)
       3. `Análisis_PCA.ipynb`. (Opcional)
       4. `Modelo_Distancias.ipynb`. (Obligatorio)
       5. `Modelos_LR_KNN.ipynb`. (Obligatorio)
       6. `Consolidacion_Modelos.ipynb`. (Obligatorio)
-
+     
+2. Ejecución por orquestador:
+   - Si sólo quieres ver la ejecución puntual de los modelos que detectan los outliers debes:
+   1. Instalar archivo requeriments.txt adjunto a este proyecto en la versión de python indicada.
+   2. Verificar que exista la base origen `query_3ec5aea3_20240410T153703.csv`
+   3. Descargar los jupyter notebooks adjuntos a este proyecto.
+   4. Ejecutar `Orquestador_Notebook.ipynb`: Este notebook se encargará de ejecutar `Modelo_Distancias.ipynb`, `Modelos_LR_KNN.ipynb` y `Consolidacion_Modelos.ipynb`.
 
 ## Cómo visualizar el archivo `.ipynb`
 
@@ -84,4 +90,6 @@ Para visualizar el archivo `.ipynb`, puedes utilizar [Jupyter Notebook](https://
 1. Instala Jupyter Notebook si no lo tienes:
    ```sh
    pip install notebook
+   
+## Cómo instalar archivo `requeriments.txt`
 
