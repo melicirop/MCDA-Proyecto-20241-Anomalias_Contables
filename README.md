@@ -77,7 +77,7 @@ Existen 2 maneras de reproducir el código según tu necesidad:
 2. Ejecución por orquestador:
    - Si sólo quieres ver la ejecución puntual de los modelos que detectan los outliers debes:
    1. Instalar archivo requeriments.txt adjunto a este proyecto en la versión de python indicada.
-   2. Verificar que exista la base origen `query_3ec5aea3_20240410T153703.csv`
+   2. Verificar que exista la base origen `query_3ec5aea3_20240410T153703.csv` (Debe descomprimirse)
    3. Descargar los jupyter notebooks adjuntos a este proyecto.
    4. Ejecutar `Orquestador_Notebook.ipynb`: Este notebook se encargará de ejecutar `Modelo_Distancias.ipynb`, `Modelos_LR_KNN.ipynb` y `Consolidacion_Modelos.ipynb`.
 
