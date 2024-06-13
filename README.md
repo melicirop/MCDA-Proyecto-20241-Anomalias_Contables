@@ -96,3 +96,25 @@ Para visualizar el archivo `.ipynb`, puedes utilizar [Jupyter Notebook](https://
    
 ## Cómo instalar archivo `requeriments.txt`
 
+1. Crea un entorno virtual:
+    ```sh
+    python -m venv venv
+    ```
+
+2. Activa el entorno virtual:
+
+    - En Windows:
+        ```sh
+        venv\Scripts\activate
+        ```
+
+    - En macOS y Linux:
+        ```sh
+        source venv/bin/activate
+        ```
+
+3. Instala las dependencias:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
