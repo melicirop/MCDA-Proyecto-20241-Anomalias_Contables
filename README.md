@@ -25,6 +25,11 @@ Por otro lado, con la automatización, el modelo puede ayudar a agilizar el proc
 - `Analisis_Exploratorio.ipynb`: Jupyter Notebook que contiene el análisis exploratorio de los datos compartidos para la detección de anomalias contables.
 - `Analisis_MCA.ipynb`: Jupyter Notebook que contiene el análisis realizado através de analisis de correspondencia multiple.
 - `Análisis_PCA.ipynb`: Jupyter Notebook que contiene el análisis realizado através de analisis de componentes principales.
+- `Modelos_LR_KNN.ipynb`: Jupyter Notebook que contiene el proceso realizado para entrenar, validar y clasificar registros atipicos através de KNN y Regresión Lineal.
+- `Modelo_Distancias.ipynb`: Jupyter Notebook que contiene el proceso realizado para calculo de distancias e identificar atipicos.
+- `Consolidacion_Modelos.ipynb`: Jupyter Notebook encargado que consolidar las salidas de los modelos "KNN-LR" y "Distancias"
+- `Orquestador_Notebook.ipynb`: Jupyter Notebook encargado de orquestar la ejecución de los procesos en caso de que se requiera.
+
 
 ### Teoría de los Modelos Usados
 #### 1. Análisis de correspondencia multiple:
@@ -32,6 +37,27 @@ Con este modelo, se busca convertir, a través del Análisis de Correspondencia 
 
 #### 2. Análisis de componentes principales:
 El Análisis de Componentes Principales (PCA) permite reducir la dimensionalidad de una matriz de datos 𝑛×𝑝, donde 𝑛 representa la cantidad de registros y 𝑝 la cantidad de variables.
+
+#### 3. KNN y Regresión Lineal:
+-	K-Nearest Neighbors (KNN): Busca identificar los 'K' vecinos más cercanos a cada punto en el espacio de características. El valor de 'K' es un hiperparámetro crucial que, dependiendo de su tamaño, puede generar comportamientos más suavizados o más específicos. Un valor pequeño de 'K' puede hacer que el modelo sea sensible al ruido en los datos, mientras que un valor grande de 'K' puede resultar en una mayor generalización y suavización de las predicciones.
+-	Regresión Lineal: se asume que existe una relación lineal entre la variable gasto_ejecutado y las variables independientes categóricas, las cuales se transforman en variables dummies. Para ello, se particiona el conjunto de datos según la variable nivel_1_cuenta y se evalúa un modelo para cada categoría, asumiendo que los datos que tomen el mismo valor en esta variable están relacionados entre sí.
+
+#### 4. Distancias:
+
+Distancia Euclidiana: Permite calcular la distancia entre 2 puntos en el espacio, para el cual se define un centroide que toma el valor de la media de los datos del gasto_ejecutado (µ). Para todos los registros del conjunto de datos se procede entonces a calcular la distancia respecto a le media de la siguiente forma:
+	
+d= √(〖(x-μ)〗^2 )
+
+Distancia de Manhatan: Igual que para la distancia euclidiana, se define el centroide con la media de la variable gasto_ejecutado y se calcula la distancia con la siguiente formula:
+
+d=|x-μ|
+
+Distancia a la Mediana: Para esta métrica, en lugar de la media, se utiliza la mediana como centroide para calcular distancias, lo cual podría ser más robusto ante la presencia de outliers, ya que la mediana no se ve tan afectada por valores extremos como la media. Se procede entonces a calcular la distancia de la siguiente forma:
+
+d=|x-Μ|
+
+Siendo Μ la media del gasto_ejecutado
+
 
 ## Cómo visualizar el archivo `.ipynb`
 
