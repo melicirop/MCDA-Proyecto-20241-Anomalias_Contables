@@ -2,6 +2,7 @@
 Este repositorio contiene todo el analisis realizado para la identificación de anomalias contables para una entidad financiera
 
 Versión de python 3.11.7
+Libreria y sus versiones en archivo `requeriments.txt`
 
 # Detección de Anomalías en Registros Contables
 
@@ -29,6 +30,8 @@ Por otro lado, con la automatización, el modelo puede ayudar a agilizar el proc
 - `Modelo_Distancias.ipynb`: Jupyter Notebook que contiene el proceso realizado para calculo de distancias e identificar atipicos.
 - `Consolidacion_Modelos.ipynb`: Jupyter Notebook encargado que consolidar las salidas de los modelos "KNN-LR" y "Distancias"
 - `Orquestador_Notebook.ipynb`: Jupyter Notebook encargado de orquestar la ejecución de los procesos en caso de que se requiera.
+- `requeriments.txt`: Archivo con librerias usadas y sus versiones
+- `query_3ec5aea3_20240410T153703.zip`: Base para ejecución inicial. Debe descomprimirse
 
 
 ### Teoría de los Modelos Usados
