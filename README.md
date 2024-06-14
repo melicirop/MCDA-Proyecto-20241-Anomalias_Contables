@@ -72,10 +72,10 @@ Existen 2 maneras de reproducir el código según tu necesidad:
    3. Llevar el siguiente orden de ejecución:
       1. `Analisis_Exploratorio.ipynb`. (Opcional)
       2. `Modelo_Distancias.ipynb`. (Obligatorio) *La salida de este modelo es entrada para los siguientes procesos
-      3. `Analisis_MCA.ipynb`. (Opcional)
-      4. `Análisis_PCA.ipynb`. (Opcional)
-      5. `Modelos_LR_KNN.ipynb`. (Obligatorio)
-      6. `Consolidacion_Modelos.ipynb`. (Obligatorio)
+      3. `Analisis_MCA.ipynb`. (Opcional) * La entrada es generada por Modelo_Distancias.ipynb
+      4. `Análisis_PCA.ipynb`. (Opcional) * La entrada es generada por Modelo_Distancias.ipynb
+      5. `Modelos_LR_KNN.ipynb`. (Obligatorio) * La entrada es generada por Modelo_Distancias.ipynb
+      6. `Consolidacion_Modelos.ipynb`. (Obligatorio) * La entrada es generada por Modelo_Distancias.ipynb y Modelos_LR_KNN.ipynb
      
 2. Ejecución por orquestador:
    - Si sólo quieres ver la ejecución puntual de los modelos que detectan los outliers debes:
