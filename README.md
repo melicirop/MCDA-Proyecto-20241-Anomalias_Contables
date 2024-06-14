@@ -12,7 +12,7 @@ El sector financiero colombiano se compone por establecimientos de crédito, ent
 
 Dentro del grupo de establecimientos de crédito o EC, los bancos son los más conocidos por la comunidad en general. Los modelos de fraude son bastante conocidos e implementados; sin embargo, actualmente los departamentos contables, a pesar de sus exhaustivas auditorías, a menudo requieren de un proceso de detección de anomalías que vaya más allá de la verificación del saldo actual versus el saldo anterior, de modo que permita conocer de primera mano todos aquellos movimientos atípicos que se registran durante determinado periodo contable, usando los datos y modelos estadísticos y computacionales para dicha actividad.
 
-El problema requiere identificar las anomalías en registros contables de gastos que no pueden ser detectados durante el proceso de razonabilidad y que se identifiquen dentro de algún tipo de anomalías: de magnitud, de tiempo o de primeras veces. El modelo debe evitar los falsos negativos y, a su vez, ser escalable en tiempo.
+El problema requiere identificar las anomalías en registros contables de gastos que no pueden ser detectados durante el proceso de razonabilidad contable. El modelo debe evitar los falsos negativos y, a su vez, ser escalable en tiempo.
 
 ## Impacto de la Solución
 
