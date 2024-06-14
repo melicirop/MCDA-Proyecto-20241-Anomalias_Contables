@@ -2,7 +2,7 @@
 Este repositorio contiene todo el analisis realizado para la identificación de anomalias contables para una entidad financiera
 
 Versión de python 3.11.7
-Libreria y sus versiones en archivo `requeriments.txt`
+Libreria y sus versiones en archivo `requirements.txt`
 
 # Detección de Anomalías en Registros Contables
 
@@ -30,7 +30,7 @@ Por otro lado, con la automatización, el modelo puede ayudar a agilizar el proc
 - `Modelo_Distancias.ipynb`: Jupyter Notebook que contiene el proceso realizado para calculo de distancias e identificar atipicos.
 - `Consolidacion_Modelos.ipynb`: Jupyter Notebook encargado que consolidar las salidas de los modelos "KNN-LR" y "Distancias"
 - `Orquestador_Notebook.ipynb`: Jupyter Notebook encargado de orquestar la ejecución de los procesos en caso de que se requiera.
-- `requeriments.txt`: Archivo con librerias usadas y sus versiones
+- `requirements.txt`: Archivo con librerias usadas y sus versiones
 - `query_3ec5aea3_20240410T153703.zip`: Base para ejecución inicial. Debe descomprimirse
 
 
@@ -66,12 +66,12 @@ Siendo Μ la media del gasto_ejecutado
 Existen 2 maneras de reproducir el código según tu necesidad:
 
 1. Ejecución notebook por notebook:
-   - Si quieres ejecutar uno por uno de los notebooks debes:
+   - Si quieres ejecutar uno a uno de los notebooks debes:
    1. Instalar archivo requeriments.txt adjunto a este proyecto en la versión de python indicada.
-   2. Verificar que exista la base origen `query_3ec5aea3_20240410T153703.csv`
+   2. Verificar que exista la base origen `query_3ec5aea3_20240410T153703.csv` (Debe descomprimirse)
    3. Llevar el siguiente orden de ejecución:
       1. `Analisis_Exploratorio.ipynb`. (Opcional)
-      2. `Modelo_Distancias.ipynb`. (Obligatorio) *La salida de este modelo es entrada para los siguientes
+      2. `Modelo_Distancias.ipynb`. (Obligatorio) *La salida de este modelo es entrada para los siguientes procesos
       3. `Analisis_MCA.ipynb`. (Opcional)
       4. `Análisis_PCA.ipynb`. (Opcional)
       5. `Modelos_LR_KNN.ipynb`. (Obligatorio)
@@ -94,7 +94,7 @@ Para visualizar el archivo `.ipynb`, puedes utilizar [Jupyter Notebook](https://
    ```sh
    pip install notebook
    
-## Cómo instalar archivo `requeriments.txt`
+## Cómo instalar archivo `requirements.txt`
 
 1. Crea un entorno virtual:
     ```sh
