@@ -32,6 +32,7 @@ Por otro lado, con la automatización, el modelo puede ayudar a agilizar el proc
 - `Orquestador_Notebook.ipynb`: Jupyter Notebook encargado de orquestar la ejecución de los procesos en caso de que se requiera.
 - `requirements.txt`: Archivo con librerias usadas y sus versiones
 - `query_3ec5aea3_20240410T153703.zip`: Base para ejecución inicial. Debe descomprimirse
+- `Detección Outliers.pbix`: Archivo de power bi con propuesta de Tablero para control, monitoreo y visualización.
 
 
 ### Teoría de los Modelos Usados
