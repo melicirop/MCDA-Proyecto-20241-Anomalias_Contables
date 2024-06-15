@@ -118,3 +118,9 @@ Para visualizar el archivo `.ipynb`, puedes utilizar [Jupyter Notebook](https://
     pip install -r requirements.txt
     ```
 
+## Autores
+
+- Mateo Holguin Carvalho
+- Diego Guasco Loaiza
+- Melissa Ciro Peña
+- Fabian Sánchez Martínez
